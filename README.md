@@ -2,7 +2,7 @@
 
 ## Installation
 
-First install metamask flask to use snaps (link somewhere)
+First install [metamask flask](https://metamask.io/flask/) to use snaps 
 
 
 1. Start up hardhat local node
