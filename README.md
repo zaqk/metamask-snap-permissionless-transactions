@@ -1,0 +1,48 @@
+# Metamask Snaps Permissionless Transactions
+
+## Installation
+
+First install metamask flask to use snaps (link somewhere)
+
+
+1. Start up hardhat local node
+```bash
+- cd hardhat
+- update hardhat/.env with your metamask secret phrase
+- yarn install
+- yarn start
+```
+
+2. connect metamask to your hardhat local node
+```bash
+- metamask => settings => networks => add network
+- network name: "hardhat local"
+- new rpc url: "http://127.0.0.1:8545" 
+- chain id: 31337
+- Currency Symbol: ETH
+```
+
+
+2. Start up local snap installation page
+```bash
+- cd snap
+- yarn install
+- yarn start
+- navigate to localhost:8080 and install metamask snap by clicking the connect button
+```
+
+3. Start up local http server
+```bash
+- cd frontend
+- yarn install
+- yarn start
+- navigate to localhost:3000
+```
+
+
+## Usage
+```bash
+- On localhost:3000 click "approve". this will approve the metamask snap for localhost:3000
+- To send a small amount of ETH to the zero address click the "send to zero address" button.
+- confirm transaction was sent successfully by checking the console logs and verifying metamask ETH amount has changed.
+```
