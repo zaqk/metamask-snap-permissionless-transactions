@@ -11,7 +11,6 @@
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
-        "iconPath": "images/icon.svg",
         "packageName": "@metamask/template-snap",
         "registry": "https://registry.npmjs.org/"
       }
