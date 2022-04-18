@@ -44,7 +44,7 @@ First install [metamask flask](https://metamask.io/flask/) to use snaps.
 
 ## Usage
 ```bash
-- On localhost:3000 click "approve". this will approve the metamask snap for localhost:3000
+- After starting all three processes. Go to localhost:8080 click "approve". this will approve the metamask snap for localhost:3000
 - To send a small amount of ETH to the zero address click the "send to zero address" button.
 - confirm transaction was sent successfully by checking the console logs and verifying metamask ETH amount has changed.
 ```
