@@ -2,7 +2,6 @@ import { ethers } from 'ethers';
 import { deriveBIP44AddressKey } from '@metamask/key-tree';
 
 let PRIVATE_KEY;
-let encoder;
 
 const provider = new ethers.providers.Web3Provider(wallet);
 
@@ -29,7 +28,6 @@ wallet.registerRpcMessageHandler(async (_, requestObject) => {
  * derived from the received `coin_type` entropy.
  */
 async function initialize() {
-  encoder = new TextEncoder();
 
   const coinTypeNode = await wallet.request({
     method: 'snap_getBip44Entropy_60',

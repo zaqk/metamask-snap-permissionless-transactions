@@ -1,6 +1,6 @@
 # Metamask Snaps Permissionless Transactions
 
-## Installation
+## Installation and running locally
 
 First install [metamask flask](https://metamask.io/flask/) to use snaps.
 
