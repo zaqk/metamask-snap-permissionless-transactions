@@ -1,5 +1,7 @@
 # Metamask Snaps Permissionless Transactions
 
+Proof of concept for a metamask snap that does not prompt the user with a metamask modal before transactions. Requires the installation of a metamask snap that has access to the users private key.
+
 ## Installation
 
 First install [metamask flask](https://metamask.io/flask/) to use snaps.
